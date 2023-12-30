@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar {
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar,
+.container button,
+.add_button {
+    background-color: #fd6569;
+}
+
+.navbar h1,
+.container,
+.over_laybox button {
+    color: aliceblue;
+}
+
+.container button,
+.add_button,
+.over_laybox input::placeholder,
+.over_laybox textarea::placeholder {
+    color: black;
+}
+
+.container button,
+.container,
+.over_laybox {
+    border-radius: 10px;
+}
+
+.container button,
+.add_button {
+    border: none;
+}
+
+.container,
+.over_lay,
+.over_laybox button {
+    background-color: black;
+}
+
+.container {
+    width: 25%;
+    margin: 20px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.container h2 {
+    color: #fd6569;
+}
+
+.container h4 {
+    padding: 10px 0;
+}
+
+.container p {
+    padding-bottom: 10px;
+}
+
+.container button {
+    padding: 10px 10px;
+}
+
+.add_button {
+    font-size: 35px;
+    border-radius: 100px;
+    padding: 5px 15px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.over_lay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    z-index: 1;
+
+    /* display */
+    display: none;
+}
+
+.over_laybox {
+    z-index: 2;
+    position: absolute;
+    background-color: #fd6569;
+    width: 40%;
+    left: 25%;
+    padding: 30px;
+    top: 20%;
+
+    /* display */
+    display: none;
+}
+
+.over_laybox input,
+textarea {
+    width: 100%;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.over_laybox button {
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+
+.over_laybox input {
+    border-bottom: solid 2px;
+}
+
+.over_laybox .input_second {
+    margin-bottom: 10px;
+}
+
+.over_laybox .input_second,
+.over_laybox input,
+.over_laybox textarea {
+    padding: 10px 0;
+}
+
+.over_laybox textarea {
+    border: solid 2px;
+    margin-bottom: 10px;
+}
+
+.over_laybox textarea:focus,
+.over_laybox input:focus {
+    outline: none;
+}
+
+.deletButton {
+    font-weight: bolder;
+}
